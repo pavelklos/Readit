@@ -1,6 +1,6 @@
 {
   "name": "Readit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Master Electron Course Project",
   "main": "main.js",
   "author": "Stackacademy.tv",
@@ -40,10 +40,12 @@
     }
   },
   "dependencies": {
+    "electron-log": "^2.2.11",
+    "electron-updater": "^2.18.2",
     "jquery": "^3.1.1",
     "query-string": "^4.3.2"
   },
   "devDependencies": {
-    "electron-builder": "^20.39.0"
+    "electron-builder": "^19.46.5"
   }
 }
